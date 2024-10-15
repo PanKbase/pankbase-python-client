@@ -24,7 +24,7 @@ Name | Type | Description | Notes
 **layout** | [**PageLayout**](PageLayout.md) |  | [optional] 
 **id** | **str** |  | [optional] 
 **type** | **List[str]** |  | [optional] 
-**summary** | **str** |  | [optional] 
+**summary** | **str** | A summary of the object. | [optional] 
 **canonical_uri** | **str** | The path of the page. | [optional] 
 
 ## Example

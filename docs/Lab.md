@@ -1,6 +1,6 @@
 # Lab
 
-A lab that is part of or affiliated with the IGVF consortium.
+A lab that is part of or affiliated with the PanKbase consortium.
 
 ## Properties
 

@@ -6,7 +6,6 @@ A file containing textual data with a tabular structure.
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**cell_type_annotation** | **str** | The inferred cell type this file is associated with based on single-cell expression profiling. | [optional] 
 **controlled_access** | **bool** | Boolean value, indicating the file being controlled access, if true. | [optional] 
 **anvil_url** | **str** | URL linking to the controlled access file that has been deposited at AnVIL workspace. | [optional] 
 **assembly** | **str** | Genome assembly applicable for the tabular data. | [optional] 
@@ -16,7 +15,7 @@ Name | Type | Description | Notes
 **documents** | **List[str]** | Documents that provide additional information (not data file). | [optional] 
 **lab** | **str** | Lab associated with the submission. | [optional] 
 **award** | **str** | Grant associated with the submission. | [optional] 
-**accession** | **str** | A unique identifier to be used to reference the object prefixed with IGVF. | [optional] 
+**accession** | **str** | A unique identifier to be used to reference the object prefixed with PKB. | [optional] 
 **alternate_accessions** | **List[str]** | Accessions previously assigned to objects that have been merged with this object. | [optional] 
 **collections** | **List[str]** | Some samples are part of particular data collections. | [optional] 
 **status** | **str** | The status of the metadata object. | [optional] 
@@ -35,7 +34,7 @@ Name | Type | Description | Notes
 **dbxrefs** | **List[str]** | Identifiers from external resources that may have 1-to-1 or 1-to-many relationships with IGVF file objects. | [optional] 
 **derived_from** | **List[str]** | The files participating as inputs into software to produce this output file. | [optional] 
 **file_format** | **str** | The file format or extension of the file. | [optional] 
-**file_format_specifications** | **List[str]** | Documents that describe the file format and fields of this file. | [optional] 
+**file_format_specifications** | **List[str]** | Document that further explains the file format. | [optional] 
 **file_set** | **str** | The file set that this file belongs to. | [optional] 
 **file_size** | **int** | File size specified in bytes. | [optional] 
 **md5sum** | **str** | The md5sum of the file being transferred. | [optional] 
@@ -49,11 +48,9 @@ Name | Type | Description | Notes
 **input_file_for** | **List[str]** | The files which are derived from this file. | [optional] 
 **gene_list_for** | **List[str]** | File Set(s) that this file is a gene list for. | [optional] 
 **loci_list_for** | **List[str]** | File Set(s) that this file is a loci list for. | [optional] 
-**assay_titles** | **List[str]** | Title(s) of assay from the file set this file belongs to. | [optional] 
 **href** | **str** | The download path to obtain file. | [optional] 
 **s3_uri** | **str** | The S3 URI of public file object. | [optional] 
 **upload_credentials** | **object** | The upload credentials for S3 to submit the file content. | [optional] 
-**barcode_map_for** | **List[str]** | Link(s) to the Multiplexed samples using this file as barcode map. | [optional] 
 
 ## Example
 

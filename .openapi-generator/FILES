@@ -30,8 +30,6 @@ docs/CrisprModification.md
 docs/CrisprModificationResults.md
 docs/CuratedSet.md
 docs/CuratedSetResults.md
-docs/DegronModification.md
-docs/DegronModificationResults.md
 docs/Document.md
 docs/DocumentResults.md
 docs/Gene.md
@@ -66,6 +64,8 @@ docs/ModelFile.md
 docs/ModelFileResults.md
 docs/ModelSet.md
 docs/ModelSetResults.md
+docs/Modification.md
+docs/ModificationResults.md
 docs/MultiplexedSample.md
 docs/MultiplexedSampleResults.md
 docs/NoResultsResponse.md
@@ -95,7 +95,6 @@ docs/Publication.md
 docs/PublicationResults.md
 docs/ReferenceFile.md
 docs/ReferenceFileResults.md
-docs/RelatedDonor.md
 docs/RodentDonor.md
 docs/RodentDonorResults.md
 docs/SampleTerm.md
@@ -165,8 +164,6 @@ igvf_client/models/crispr_modification.py
 igvf_client/models/crispr_modification_results.py
 igvf_client/models/curated_set.py
 igvf_client/models/curated_set_results.py
-igvf_client/models/degron_modification.py
-igvf_client/models/degron_modification_results.py
 igvf_client/models/document.py
 igvf_client/models/document_results.py
 igvf_client/models/gene.py
@@ -200,6 +197,8 @@ igvf_client/models/model_file.py
 igvf_client/models/model_file_results.py
 igvf_client/models/model_set.py
 igvf_client/models/model_set_results.py
+igvf_client/models/modification.py
+igvf_client/models/modification_results.py
 igvf_client/models/multiplexed_sample.py
 igvf_client/models/multiplexed_sample_results.py
 igvf_client/models/no_results_response.py
@@ -229,7 +228,6 @@ igvf_client/models/publication.py
 igvf_client/models/publication_results.py
 igvf_client/models/reference_file.py
 igvf_client/models/reference_file_results.py
-igvf_client/models/related_donor.py
 igvf_client/models/rodent_donor.py
 igvf_client/models/rodent_donor_results.py
 igvf_client/models/sample_term.py

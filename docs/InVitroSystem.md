@@ -7,7 +7,7 @@ A biosample that is cultured, such as immortalized cell lines, organoids, or sam
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **release_timestamp** | **str** | The date the object was released. | [optional] 
-**publications** | **List[str]** | The publications associated with this object. | [optional] 
+**publication_identifiers** | **List[str]** | The publication identifiers that provide more information about the object. | [optional] 
 **taxa** | **str** | The species of the organism. | [optional] 
 **url** | **str** | An external resource with additional information. | [optional] 
 **sources** | **List[str]** | The originating lab(s) or vendor(s). | [optional] 
@@ -16,7 +16,7 @@ Name | Type | Description | Notes
 **documents** | **List[str]** | Documents that provide additional information (not data file). | [optional] 
 **lab** | **str** | Lab associated with the submission. | [optional] 
 **award** | **str** | Grant associated with the submission. | [optional] 
-**accession** | **str** | A unique identifier to be used to reference the object prefixed with IGVF. | [optional] 
+**accession** | **str** | A unique identifier to be used to reference the object prefixed with PKB. | [optional] 
 **alternate_accessions** | **List[str]** | Accessions previously assigned to objects that have been merged with this object. | [optional] 
 **collections** | **List[str]** | Some samples are part of particular data collections. | [optional] 
 **status** | **str** | The status of the metadata object. | [optional] 
@@ -65,7 +65,6 @@ Name | Type | Description | Notes
 **passage_number** | **int** | Number of passages including the passages from the source. | [optional] 
 **targeted_sample_term** | **str** | Ontology term identifying the targeted endpoint biosample resulting from differentation or reprogramming. | [optional] 
 **growth_medium** | **str** | A growth medium of the in vitro system. | [optional] 
-**biosample_qualifiers** | **List[str]** | An array of various cell states. This property provides additional information about a cell at a finer-grained level compared to what ontologies currently capture. For example, exhausted T-cells. | [optional] 
 **id** | **str** |  | [optional] 
 **type** | **List[str]** |  | [optional] 
 **summary** | **str** | A summary of the sample. | [optional] 

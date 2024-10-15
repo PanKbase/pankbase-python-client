@@ -24,7 +24,7 @@ Name | Type | Description | Notes
 **urls** | **List[str]** | External resources with additional information to the document. | [optional] 
 **id** | **str** |  | [optional] 
 **type** | **List[str]** |  | [optional] 
-**summary** | **str** | A summary of the document. | [optional] 
+**summary** | **str** | A summary of the object. | [optional] 
 
 ## Example
 

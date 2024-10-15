@@ -7,11 +7,11 @@ A workflow for computational analysis of genomic data. A workflow is made up of 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **release_timestamp** | **str** | The date the object was released. | [optional] 
-**publications** | **List[str]** | The publications associated with this object. | [optional] 
+**publication_identifiers** | **List[str]** | The publication identifiers that provide more information about the object. | [optional] 
 **documents** | **List[str]** | Documents that provide additional information (not data file). | [optional] 
 **lab** | **str** | Lab associated with the submission. | [optional] 
 **award** | **str** | Grant associated with the submission. | [optional] 
-**accession** | **str** | A unique identifier to be used to reference the object prefixed with IGVF. | [optional] 
+**accession** | **str** | A unique identifier to be used to reference the object prefixed with PKB. | [optional] 
 **alternate_accessions** | **List[str]** | Accessions previously assigned to objects that have been merged with this object. | [optional] 
 **collections** | **List[str]** | Some samples are part of particular data collections. | [optional] 
 **status** | **str** | The status of the metadata object. | [optional] 

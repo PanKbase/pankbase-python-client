@@ -7,6 +7,7 @@ A publication related to IGVF.
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **release_timestamp** | **str** | The date the object was released. | [optional] 
+**publication_identifiers** | **List[str]** | The publication identifiers that provide more information about the object. | [optional] 
 **status** | **str** | The status of the metadata object. | [optional] 
 **lab** | **str** | Lab associated with the submission. | [optional] 
 **award** | **str** | Grant associated with the submission. | [optional] 
@@ -28,18 +29,11 @@ Name | Type | Description | Notes
 **page** | **str** | Pagination of the reference | [optional] 
 **volume** | **str** | The volume of the publication. | [optional] 
 **journal** | **str** | The journal of the publication. | [optional] 
-**publication_identifiers** | **List[str]** | The publication identifiers associated with this publication object. | [optional] 
 **published_by** | **List[str]** | The affiliation of the lab with a larger organization, such as IGVF. | [optional] 
 **id** | **str** |  | [optional] 
 **type** | **List[str]** |  | [optional] 
-**summary** | **str** | A summary of the publication. | [optional] 
+**summary** | **str** | A summary of the object. | [optional] 
 **publication_year** | **int** | The year the publication was published. | [optional] 
-**samples** | **List[str]** | The samples associated with this publication. | [optional] 
-**donors** | **List[str]** | The donors associated with this publication. | [optional] 
-**file_sets** | **List[str]** | The file sets associated with this publication. | [optional] 
-**workflows** | **List[str]** | The workflows associated with this publication. | [optional] 
-**software** | **List[str]** | The software associated with this publication. | [optional] 
-**software_versions** | **List[str]** | The software versions associated with this publication. | [optional] 
 
 ## Example
 

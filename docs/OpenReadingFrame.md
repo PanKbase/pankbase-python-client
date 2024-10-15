@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 **lab** | **str** | Lab associated with the submission. | [optional] 
 **award** | **str** | Grant associated with the submission. | [optional] 
 **orf_id** | **str** | Open reading frame ID. | [optional] 
-**genes** | **List[str]** | ENSEMBL GeneIDs of official nomenclature approved genes. The GeneIDs do not include the current version number suffix. | [optional] 
+**gene** | **List[str]** | ENSEMBL GeneID of official nomenclature approved gene. The GeneID does not include the current version number suffix. | [optional] 
 **protein_id** | **str** | ENSEMBL ProteinID of official nomenclature approved protein. The ProteinID does not include the current version number suffix. | [optional] 
 **dbxrefs** | **List[str]** | Unique identifiers from the hORFeome database | [optional] 
 **pct_identical_protein** | **float** | The percentage of identical matches to Ensembl protein. | [optional] 
@@ -27,7 +27,7 @@ Name | Type | Description | Notes
 **pct_coverage_orf** | **float** | The percentage of Ensembl protein covered by ORF. | [optional] 
 **id** | **str** |  | [optional] 
 **type** | **List[str]** |  | [optional] 
-**summary** | **str** |  | [optional] 
+**summary** | **str** | A summary of the object. | [optional] 
 
 ## Example
 
